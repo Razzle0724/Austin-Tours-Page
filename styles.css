@@ -1,0 +1,102 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+#heading {
+    background-image: url("images/austin-skyline.jpg");
+    background-size: cover;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 40px black;
+    color: white;
+}
+.activity-pic {
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#eric-profile-pic {
+    border: 5px solid black;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.activity-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px 0 5px;
+    width: 200px;
+
+    
+}
+#concierge-section {
+    background-image: url("images/ladybird-lake.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 5px #cc5500;
+    color: black;
+}
+#personal-note {
+    width: 300px;
+    background: white;
+    padding: 5px;
+    border-radius: 20px;
+    border: 5px solid black
+}
+#my-name {
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+#activity-section {
+    background: #CC5500;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 40px white;
+    color: black;
+    }
+#activity-img {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    }
+a {
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Rum Raisin", serif;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 100px;
+}
